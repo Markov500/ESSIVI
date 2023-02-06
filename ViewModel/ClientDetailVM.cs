@@ -7,15 +7,13 @@ namespace ESSIVI.ViewModel;
 partial class ClientDetailVM : ObservableObject
 {
 	[ObservableProperty]
-	string cli;
+	Client cli;
 
-	//[ObservableProperty]
-	//Client client;
+	
 
 	public ClientDetailVM() 
 	{
-		//Client= new Client();
-		//Client = JsonSerializer.Deserialize<Client>(cli);
+		
 	}
 
 

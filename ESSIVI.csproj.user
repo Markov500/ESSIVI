@@ -3,7 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Émulateur Android</ActiveDebugProfile>
+    <ActiveDebugProfile>HUAWEI INE-LX1 (Android 9.0 - API 28)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <DefaultDevice>pixel_2_xl_-_api_33</DefaultDevice>
   </PropertyGroup>
 </Project>

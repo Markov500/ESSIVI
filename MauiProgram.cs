@@ -15,7 +15,7 @@ public static class MauiProgram
 				events.AddAndroid(android => android.OnCreate((activity, bundle) => MakeStatusBarTranslucent(activity)));
 				static void MakeStatusBarTranslucent(Android.App.Activity activity)
 				{
-					activity.Window.SetStatusBarColor(Android.Graphics.Color.Transparent);
+					activity.Window.SetStatusBarColor(Android.Graphics.Color.Rgb(34,66,124));
 				}
 #endif
 			})

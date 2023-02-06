@@ -270,3 +270,15 @@ E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-ios\iossimulator-x64\refint\ESSIVI.dll
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-ios\iossimulator-x64\ESSIVI.pdb
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-ios\iossimulator-x64\ESSIVI.genruntimeconfig.cache
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-ios\iossimulator-x64\ref\ESSIVI.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Extended.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Extended.UI.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.SceneGraph.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Skottie.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Views.iOS.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Controls.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Core.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\Info.plist
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\module.modulemap
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\CodeResources
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-ios\iossimulator-x64\libSkiaSharp

@@ -9,9 +9,9 @@
             BackgroundColor="{DynamicResource PrimaryColor}"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand"
-            RowDefinitions="Auto,*">
+            RowDefinitions="Auto,Auto">
 
-            <Grid Grid.Row="0" RowDefinitions="40,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
+            <Grid Grid.Row="0" RowDefinitions="45,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,15,0,0">
                 <Label
                         Grid.Row="0"
                         FontAttributes="Bold"
@@ -35,9 +35,10 @@
                 BorderColor="#1C375C"
                 CornerRadius="40"
                 HasShadow="True"
-                HeightRequest="500">
+                HeightRequest="580"
+                Padding="0">
 
-                <maps:Map x:Name="map" />
+                <maps:Map x:Name="map"                           HeightRequest="540"                          VerticalOptions="Start"/>
             </Frame>
         </Grid>
     </ContentPage.Content>

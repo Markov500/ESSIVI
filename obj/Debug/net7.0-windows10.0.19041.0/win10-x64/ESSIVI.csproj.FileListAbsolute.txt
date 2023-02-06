@@ -322,3 +322,12 @@ E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.tx
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Extended.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Extended.UI.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.SceneGraph.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Skottie.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll

@@ -16,7 +16,7 @@
             VerticalOptions="FillAndExpand"
             RowDefinitions="Auto,*">
             
-            <Grid Grid.Row="0" RowDefinitions="40,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
+            <Grid Grid.Row="0" RowDefinitions="45,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
                 <Label
                     Grid.Row="0"
                     FontAttributes="Bold"
@@ -46,24 +46,18 @@
                     HorizontalOptions="FillAndExpand"
                     RowSpacing="25"
                     VerticalOptions="FillAndExpand"
-                    RowDefinitions="60,Auto,Auto,Auto,Auto">
+                    RowDefinitions="Auto,Auto,Auto">
                    
-                    <Image
-                        Grid.Row="0"
-                        Margin="0,0"
-                        Aspect="AspectFit"
-                        HeightRequest="200"
-                        Source="logo_esivivi.jpg"
-                        WidthRequest="120" />
+                 
                     
                     <Entry
-                        Grid.Row="1"
+                        Grid.Row="0"
                         Margin="0,20,0,0"
                         HorizontalOptions="FillAndExpand"
                         Placeholder="Numéro d'identification"
                         Text="{Binding NumId}"
                         VerticalOptions="FillAndExpand" />
-                    <StackLayout Grid.Row="2">
+                    <StackLayout Grid.Row="1">
                         <Entry
                             HorizontalOptions="FillAndExpand"
                             IsPassword="True"
@@ -74,18 +68,23 @@
                              Text="{Binding Error}"
                              TextColor="Red"/>
                     </StackLayout>
-                    <Button
-                        Grid.Row="3"
-                        BackgroundColor="#1C375C"
-                        Command="{Binding ConnectCommand}"
-                        CornerRadius="20"
-                        WidthRequest="200"
-                        Text="Connexion" />
-                    <Label
-                        Grid.Row="4"
-                        FontAttributes="Bold"
-                        HorizontalOptions="CenterAndExpand"
-                        Text="Mot de passe oublié?" />
+                    <Grid Grid.Row="2"
+                          RowDefinitions="Auto,Auto"
+                          RowSpacing="20">
+                        <Button
+                            Grid.Row="0"
+                            BackgroundColor="#1C375C"
+                            Command="{Binding ConnectCommand}"
+                            CornerRadius="20"
+                            WidthRequest="200"
+                            Text="Connexion" />
+                        <Label
+                            Grid.Row="1"
+                            FontAttributes="Bold"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Mot de passe oublié?" />
+                    </Grid>
+                    
                     
                 </Grid>
             </Frame>

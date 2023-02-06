@@ -10,7 +10,7 @@
         "projectUniqueName": "E:\\Mes_Codes\\ESSIVI\\ESSIVI.csproj",
         "projectName": "ESSIVI",
         "projectPath": "E:\\Mes_Codes\\ESSIVI\\ESSIVI.csproj",
-        "packagesPath": "C:\\Users\\TEMP.HP\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\LH.HP\\.nuget\\packages\\",
         "outputPath": "E:\\Mes_Codes\\ESSIVI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
@@ -18,7 +18,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TEMP.HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LH.HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[7.0.49, )",
               "autoReferenced": true
+            },
+            "SkiaSharp.Extended.UI.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-preview.61, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -223,6 +227,10 @@
               "target": "Package",
               "version": "[7.0.49, )",
               "autoReferenced": true
+            },
+            "SkiaSharp.Extended.UI.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-preview.61, )"
             }
           },
           "imports": [
@@ -294,6 +302,10 @@
               "target": "Package",
               "version": "[7.0.49, )",
               "autoReferenced": true
+            },
+            "SkiaSharp.Extended.UI.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-preview.61, )"
             }
           },
           "imports": [
@@ -382,6 +394,10 @@
               "target": "Package",
               "version": "[1.1.5, )",
               "autoReferenced": true
+            },
+            "SkiaSharp.Extended.UI.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-preview.61, )"
             }
           },
           "imports": [

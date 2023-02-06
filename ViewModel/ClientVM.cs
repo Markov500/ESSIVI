@@ -18,7 +18,10 @@ partial class ClientVM : ObservableObject
 			new Client 
 			{
 				Id= 1,
-				Nom = "ETS Aladji"
+				Nom = "ETS Aladji",
+				Localisation = new(6.208264,1.188625)
+				
+				
 			}
 		);
 
@@ -26,17 +29,23 @@ partial class ClientVM : ObservableObject
 			new Client
 			{
 				Id = 2,
-				Nom = "ETS Tout est ici"
-			}
+				Nom = "ETS Tout est ici",
+                Localisation = new(11.2088864, -9.198625)
+            }
 		);
 	}
 
 	[RelayCommand]
-	async Task SeeDetails(string Cli)
+	async Task SeeDetails(Client Cli)
 	{
 		
 		// Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}?Cli={JsonSerializer.Serialize(Cli)}");
-		await Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}?Cli={Cli}");
+		await Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}?",
+			new Dictionary<string, object>
+			{
+				["Cli"] = Cli,
+			}
+			);
 	}
 
 

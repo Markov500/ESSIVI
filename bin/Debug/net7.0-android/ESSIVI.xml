@@ -14,7 +14,7 @@
             <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.SeeDetailsCommand"/>.</summary>
         </member>
         <member name="P:ESSIVI.ViewModel.ClientVM.SeeDetailsCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.SeeDetails(System.String)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.SeeDetails(ESSIVI.Model.Client)"/>.</summary>
         </member>
         <member name="F:ESSIVI.ViewModel.ClientVM.gotoAddPageCommand">
             <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.GotoAddPageCommand"/>.</summary>

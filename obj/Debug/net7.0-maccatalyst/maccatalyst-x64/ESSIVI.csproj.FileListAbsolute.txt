@@ -260,3 +260,12 @@ E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\refint\ESSIVI.d
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ESSIVI.pdb
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ESSIVI.genruntimeconfig.cache
 E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\ESSIVI.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Extended.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Extended.UI.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.SceneGraph.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Skottie.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.iOS.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Controls.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Core.dll
+E:\Mes_Codes\ESSIVI\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip

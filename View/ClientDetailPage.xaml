@@ -4,15 +4,17 @@
              x:Class="ESSIVI.View.ClientDetailPage"
              Title="ClientDetailPage"
              xmlns:vm ="clr-namespace:ESSIVI.ViewModel"
-             x:DataType="vm:ClientDetailVM">
+             x:DataType="vm:ClientDetailVM"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials">
     <ContentPage.Content>
         <Grid
             BackgroundColor="{DynamicResource PrimaryColor}"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand"
-            RowDefinitions="Auto,*">
+            RowDefinitions="Auto,Auto">
 
-            <Grid Grid.Row="0" RowDefinitions="40,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
+            <Grid Grid.Row="0" RowDefinitions="45,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,15,0,0">
                 <Label
                         Grid.Row="0"
                         FontAttributes="Bold"
@@ -25,7 +27,7 @@
                         Margin="0,-15,0,0"
                         HorizontalOptions="CenterAndExpand"
                         FontSize="18"
-                        Text="{Binding Cli}"
+                        Text="{Binding Cli.Nom}"
                         TextColor="White" />
 
             </Grid>
@@ -36,9 +38,42 @@
                 BorderColor="#1C375C"
                 CornerRadius="40"
                 HasShadow="True"
-                HeightRequest="500">
-                <Label
-                    Text="Toto"/>
+                HeightRequest="580"
+                Padding="0">
+
+                <Grid RowDefinitions="Auto,Auto">
+                    <Border 
+                        Grid.Row="0"
+                        StrokeShape="RoundRectangle 40,40,0,0"
+                        Margin="5,5,5,0"
+                        Padding="0">
+
+                        <maps:Map                                                        HeightRequest="300"                            VerticalOptions="Start">
+                            <x:Arguments>
+                                <MapSpan>
+                                    <x:Arguments>
+                                        <sensors:Location>
+                                            <x:Arguments>
+                                                <x:Double>{Binding Cli.Localisation.Latitude}</x:Double>
+                                                <x:Double>{Binding Cli.Localisation.Longitude}</x:Double>
+                                            </x:Arguments>
+                                        </sensors:Location>
+                                        <x:Double>0.01</x:Double>
+                                        <x:Double>0.01</x:Double>
+                                    </x:Arguments>
+                                </MapSpan>
+                            </x:Arguments>                        </maps:Map>   
+                    </Border>
+
+                    <Label
+                        Grid.Row="1"
+                        Text="{Binding Cli.Localisation.Longitude}"/>
+
+
+
+
+                </Grid>
+                
             </Frame>
         </Grid>
     </ContentPage.Content>
