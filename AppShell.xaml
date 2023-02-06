@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ESSIVI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ESSIVI"
+    xmlns:view="clr-namespace:ESSIVI.View"
+    Shell.BackgroundColor="{DynamicResource PrimaryColor}"
+    Shell.FlyoutBehavior="Flyout">
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="{DynamicResource PrimaryColor}"
+                    HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="logo_esivivi.jpg"
+                   Opacity="0.6" />
+
+                <Label Text="ESSIVI SARL"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="45"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <ShellContent
+        Title="Accueil"
+        ContentTemplate="{DataTemplate view:HomePage}"
+        Route="HomePage" />
+
+
+    <ShellContent
+        Title="Clients"
+        ContentTemplate="{DataTemplate view:ClientPage}"
+        Route="ClientPage" />
+    
+    <ShellContent
+        Title="Mon profil"
+        ContentTemplate="{DataTemplate view:ProfilAgentPage}"
+        Route="ProfilAgentPage" />
+    <ShellContent
+        Title="Déconnexion"
+        ContentTemplate="{DataTemplate view:LoginPage}"
+        Route="LoginPage" />
+    <!--<TabBar>
+        
+        <ShellContent
+            Title="Accueil"
+            ContentTemplate="{DataTemplate view:HomePage}"
+            Route="HomePageTab" />
+
+
+        <ShellContent
+            Title="Clients"
+            ContentTemplate="{DataTemplate view:ClientPage}"
+            Route="ClientPageTab" />
+
+        <ShellContent
+            Title="Mon profil"
+            ContentTemplate="{DataTemplate view:ProfilAgentPage}"
+            Route="ProfilAgentPageTab" />
+    </TabBar>-->
+
+
+
+</Shell>

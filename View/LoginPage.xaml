@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESSIVI.View.LoginPage"
+             Title="Login"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             xmlns:vm="clr-namespace:ESSIVI.ViewModel"
+             Shell.FlyoutBehavior="Disabled"
+             x:DataType="vm:LoginVM"
+             xmlns:shared="clr-namespace:ESSIVI.View.Components">
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{DynamicResource PrimaryColor}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            RowDefinitions="Auto,*">
+            
+            <Grid Grid.Row="0" RowDefinitions="40,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
+                <Label
+                    Grid.Row="0"
+                    FontAttributes="Bold"
+                    FontSize="35"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="ESSIVI SARL"
+                    TextColor="White" />
+                <Label
+                    Grid.Row="1"
+                    Margin="0,-15,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="18"
+                    Text="Connectez-vous"
+                    TextColor="White" />
+                
+            </Grid>
+
+            <Frame
+                Grid.Row="1"
+                Margin="0,0,0,-40"
+                BorderColor="{DynamicResource PrimaryColor}"
+                CornerRadius="40"
+                HasShadow="True"
+                HeightRequest="550">
+                <Grid
+                    Padding="20,50,20,0"
+                    HorizontalOptions="FillAndExpand"
+                    RowSpacing="25"
+                    VerticalOptions="FillAndExpand"
+                    RowDefinitions="60,Auto,Auto,Auto,Auto">
+                   
+                    <Image
+                        Grid.Row="0"
+                        Margin="0,0"
+                        Aspect="AspectFit"
+                        HeightRequest="200"
+                        Source="logo_esivivi.jpg"
+                        WidthRequest="120" />
+                    
+                    <Entry
+                        Grid.Row="1"
+                        Margin="0,20,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Placeholder="Numéro d'identification"
+                        Text="{Binding NumId}"
+                        VerticalOptions="FillAndExpand" />
+                    <StackLayout Grid.Row="2">
+                        <Entry
+                            HorizontalOptions="FillAndExpand"
+                            IsPassword="True"
+                            Placeholder="Mot de passe"
+                            Text="{Binding Mpass}"
+                            VerticalOptions="FillAndExpand" />
+                        <Label
+                             Text="{Binding Error}"
+                             TextColor="Red"/>
+                    </StackLayout>
+                    <Button
+                        Grid.Row="3"
+                        BackgroundColor="#1C375C"
+                        Command="{Binding ConnectCommand}"
+                        CornerRadius="20"
+                        WidthRequest="200"
+                        Text="Connexion" />
+                    <Label
+                        Grid.Row="4"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Mot de passe oublié?" />
+                    
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

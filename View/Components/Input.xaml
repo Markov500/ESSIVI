@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Border xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="ESSIVI.View.Components.Input"
+        x:Name="_border"
+        StrokeShape="RoundRectangle 40"
+        Padding="5,0">
+    <Entry
+        x:Name="_entry"
+        Text=""/>
+</Border>

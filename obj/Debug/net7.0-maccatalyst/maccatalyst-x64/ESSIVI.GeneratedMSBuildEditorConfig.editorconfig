@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ESSIVI
+build_property.ProjectDir = E:\Mes_Codes\ESSIVI\
+
+[E:/Mes_Codes/ESSIVI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/Mes_Codes/ESSIVI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/Mes_Codes/ESSIVI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/Mes_Codes/ESSIVI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/Mes_Codes/ESSIVI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/Mes_Codes/ESSIVI/View/ClientAddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.ClientAddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ClientAddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ClientAddPage.xaml
+
+[E:/Mes_Codes/ESSIVI/View/ClientDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.ClientDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ClientDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ClientDetailPage.xaml
+
+[E:/Mes_Codes/ESSIVI/View/ClientPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.ClientPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ClientPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ClientPage.xaml
+
+[E:/Mes_Codes/ESSIVI/View/Components/Input.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.Components.Input.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\Input.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\Input.xaml
+
+[E:/Mes_Codes/ESSIVI/View/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomePage.xaml
+
+[E:/Mes_Codes/ESSIVI/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[E:/Mes_Codes/ESSIVI/View/ProfilAgentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ESSIVI.View.ProfilAgentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ProfilAgentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ProfilAgentPage.xaml

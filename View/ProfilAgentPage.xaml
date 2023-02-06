@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESSIVI.View.ProfilAgentPage"
+             Title="ProfilAgentPage">
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{DynamicResource PrimaryColor}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            RowDefinitions="Auto,*">
+
+            <Grid Grid.Row="0" RowDefinitions="40,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,55">
+                <Label
+                        Grid.Row="0"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="ESSIVI SARL"
+                        TextColor="White" />
+                <Label
+                        Grid.Row="1"
+                        Margin="0,-15,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="18"
+                        Text="Accueil"
+                        TextColor="White" />
+
+            </Grid>
+
+            <Frame
+                Grid.Row="1"
+                Margin="0,0,0,-40"
+                BorderColor="#1C375C"
+                CornerRadius="40"
+                HasShadow="True"
+                HeightRequest="500">
+
+                <Grid
+                    RowDefinitions="*,*,*">
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
