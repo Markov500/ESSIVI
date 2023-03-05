@@ -11,32 +11,43 @@ partial class LoginVM : ObservableObject
 	 string mpass;
 	[ObservableProperty]
 	string error;
+    [ObservableProperty]
+    bool animationIsVisible;
 
-	INavigation Navigation { get; set; }
-
-	public LoginVM( INavigation nav)
+	INavigation _navigation;
+	public LoginVM(INavigation nav)
 	{
 		this.error = string.Empty;
-		this.Navigation= nav;
+		this.animationIsVisible = false;
+		this._navigation = nav;
 
 	}
 
 	[RelayCommand]
 	async Task Connect()
 	{
-		if (NumId == "a" && Mpass == "a")
+        this.Error = string.Empty;
+        
+        this.AnimationIsVisible = true;
+        await Task.Delay(2000);
+
+		Agent a = new AgentService().ConnectAgent(this.NumId, this.Mpass);
+        if (a is not  null)
 		{
-			//this.Navigation.PushAsync(new Home());
+			//await App.Current.MainPage.Navigation.PushAsync(new HomePage(new HomeVM()));
+           // await _navigation.PushAsync(new HomePage(new HomeVM()));
 			//new NavigationPage(new Home());
-			await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
-			Mpass = string.Empty;
+			await Shell.Current.GoToAsync($"///{nameof(HomePage)}");
 			this.NumId = string.Empty;
-			this.Error = string.Empty;
-		}
-		else
+            this.Mpass = string.Empty;
+            //Application.Current.Properties["agent"] = a;
+            this.AnimationIsVisible = false;
+        }
+        else
 		{
-			this.Mpass = string.Empty;
+            this.Mpass = string.Empty;
 			this.Error = "Numéro d'identification ou mot de passe incorrect";
+			this.AnimationIsVisible = false;
 		}
 	}
 }

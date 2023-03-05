@@ -7,6 +7,5 @@ public partial class AppShell : Shell
 		InitializeComponent();
 		Routing.RegisterRoute(nameof(ClientAddPage), typeof(ClientAddPage));
 		Routing.RegisterRoute(nameof(ClientDetailPage), typeof(ClientDetailPage));
-		Navigation.PushAsync(new LoginPage());
 	}
 }

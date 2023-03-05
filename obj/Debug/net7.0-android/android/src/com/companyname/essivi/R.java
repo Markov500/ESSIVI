@@ -11269,6 +11269,7 @@ public final class R {
     public static final int test_level_drawable=0x7f0700b0;
     public static final int tooltip_frame_dark=0x7f0700b1;
     public static final int tooltip_frame_light=0x7f0700b2;
+    public static final int water_delivrer=0x7f0700b3;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -12009,6 +12010,22 @@ public final class R {
     public static final int appicon_background=0x7f0c0001;
     public static final int appicon_foreground=0x7f0c0002;
     public static final int appicon_round=0x7f0c0003;
+    public static final int car_water_delivrer_icon=0x7f0c0004;
+    public static final int car_water_delivrer_icon_background=0x7f0c0005;
+    public static final int car_water_delivrer_icon_foreground=0x7f0c0006;
+    public static final int car_water_delivrer_icon_round=0x7f0c0007;
+    public static final int icon=0x7f0c0008;
+    public static final int icon_background=0x7f0c0009;
+    public static final int icon_foreground=0x7f0c000a;
+    public static final int icon_round=0x7f0c000b;
+    public static final int water=0x7f0c000c;
+    public static final int water_background=0x7f0c000d;
+    public static final int water_bottle=0x7f0c000e;
+    public static final int water_bottle_background=0x7f0c000f;
+    public static final int water_bottle_foreground=0x7f0c0010;
+    public static final int water_bottle_round=0x7f0c0011;
+    public static final int water_foreground=0x7f0c0012;
+    public static final int water_round=0x7f0c0013;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0d0000;

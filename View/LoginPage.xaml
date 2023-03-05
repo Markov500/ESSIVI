@@ -8,7 +8,8 @@
              xmlns:vm="clr-namespace:ESSIVI.ViewModel"
              Shell.FlyoutBehavior="Disabled"
              x:DataType="vm:LoginVM"
-             xmlns:shared="clr-namespace:ESSIVI.View.Components">
+             xmlns:shared="clr-namespace:ESSIVI.View.Components"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI">
     <ContentPage.Content>
         <Grid
             BackgroundColor="{DynamicResource PrimaryColor}"
@@ -46,7 +47,7 @@
                     HorizontalOptions="FillAndExpand"
                     RowSpacing="25"
                     VerticalOptions="FillAndExpand"
-                    RowDefinitions="Auto,Auto,Auto">
+                    RowDefinitions="Auto,Auto,Auto,Auto">
                    
                  
                     
@@ -66,6 +67,7 @@
                             VerticalOptions="FillAndExpand" />
                         <Label
                              Text="{Binding Error}"
+                            FontSize="Micro"
                              TextColor="Red"/>
                     </StackLayout>
                     <Grid Grid.Row="2"
@@ -84,6 +86,16 @@
                             HorizontalOptions="CenterAndExpand"
                             Text="Mot de passe oublié?" />
                     </Grid>
+
+                    <skia:SKLottieView
+                        Grid.Row="3"
+                        Source="water_droplet.json"
+                        HeightRequest="120"
+                        IsAnimationEnabled="{Binding AnimationIsVisible}"
+                        IsVisible="{Binding AnimationIsVisible}"
+                        RepeatMode="Restart"
+                        RepeatCount="-1">
+                    </skia:SKLottieView>
                     
                     
                 </Grid>

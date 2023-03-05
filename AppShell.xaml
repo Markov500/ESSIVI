@@ -26,6 +26,11 @@
     </Shell.FlyoutHeaderTemplate>
 
     <ShellContent
+        Title="Déconnexion"
+        ContentTemplate="{DataTemplate view:LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent
         Title="Accueil"
         ContentTemplate="{DataTemplate view:HomePage}"
         Route="HomePage" />
@@ -40,28 +45,25 @@
         Title="Mon profil"
         ContentTemplate="{DataTemplate view:ProfilAgentPage}"
         Route="ProfilAgentPage" />
-    <ShellContent
-        Title="Déconnexion"
-        ContentTemplate="{DataTemplate view:LoginPage}"
-        Route="LoginPage" />
-    <!--<TabBar>
-        
-        <ShellContent
-            Title="Accueil"
-            ContentTemplate="{DataTemplate view:HomePage}"
-            Route="HomePageTab" />
 
+    
+    <TabBar>
+        <Tab Title="Home" Icon="dotnet_bot.svg">
+            <ShellContent
+                Icon="dotnet_bot.svg"
+                Title="Home"
+                ContentTemplate="{DataTemplate view:HomePage}"
+                Route="home" />
 
-        <ShellContent
-            Title="Clients"
-            ContentTemplate="{DataTemplate view:ClientPage}"
-            Route="ClientPageTab" />
-
-        <ShellContent
-            Title="Mon profil"
-            ContentTemplate="{DataTemplate view:ProfilAgentPage}"
-            Route="ProfilAgentPageTab" />
-    </TabBar>-->
+        </Tab>
+        <Tab Title="Clients" Icon="dotnet_bot.svg">
+            <ShellContent
+                Icon="dotnet_bot.svg"
+                Title="Settings"
+                ContentTemplate="{DataTemplate view:ClientPage}"
+                Route="settings" /> 
+        </Tab>
+    </TabBar>
 
 
 

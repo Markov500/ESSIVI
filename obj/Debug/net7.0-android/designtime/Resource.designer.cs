@@ -14616,6 +14616,9 @@ namespace ESSIVI
 			// aapt resource value: 0x7F0700B2
 			public const int tooltip_frame_light = 2131165362;
 			
+			// aapt resource value: 0x7F0700B3
+			public const int water_delivrer = 2131165363;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -16870,6 +16873,54 @@ namespace ESSIVI
 			
 			// aapt resource value: 0x7F0C0003
 			public const int appicon_round = 2131492867;
+			
+			// aapt resource value: 0x7F0C0004
+			public const int car_water_delivrer_icon = 2131492868;
+			
+			// aapt resource value: 0x7F0C0005
+			public const int car_water_delivrer_icon_background = 2131492869;
+			
+			// aapt resource value: 0x7F0C0006
+			public const int car_water_delivrer_icon_foreground = 2131492870;
+			
+			// aapt resource value: 0x7F0C0007
+			public const int car_water_delivrer_icon_round = 2131492871;
+			
+			// aapt resource value: 0x7F0C0008
+			public const int icon = 2131492872;
+			
+			// aapt resource value: 0x7F0C0009
+			public const int icon_background = 2131492873;
+			
+			// aapt resource value: 0x7F0C000A
+			public const int icon_foreground = 2131492874;
+			
+			// aapt resource value: 0x7F0C000B
+			public const int icon_round = 2131492875;
+			
+			// aapt resource value: 0x7F0C000C
+			public const int water = 2131492876;
+			
+			// aapt resource value: 0x7F0C000D
+			public const int water_background = 2131492877;
+			
+			// aapt resource value: 0x7F0C000E
+			public const int water_bottle = 2131492878;
+			
+			// aapt resource value: 0x7F0C000F
+			public const int water_bottle_background = 2131492879;
+			
+			// aapt resource value: 0x7F0C0010
+			public const int water_bottle_foreground = 2131492880;
+			
+			// aapt resource value: 0x7F0C0011
+			public const int water_bottle_round = 2131492881;
+			
+			// aapt resource value: 0x7F0C0012
+			public const int water_foreground = 2131492882;
+			
+			// aapt resource value: 0x7F0C0013
+			public const int water_round = 2131492883;
 			
 			static Mipmap()
 			{

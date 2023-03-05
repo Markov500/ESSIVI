@@ -11,13 +11,13 @@
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <permission android:name="com.companyname.essivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
+  <uses-permission android:name="com.companyname.essivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
   <queries>
     <!-- Needs to be explicitly declared on Android R+ -->
     <package android:name="com.google.android.apps.maps" />
   </queries>
-  <permission android:name="com.companyname.essivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
-  <uses-permission android:name="com.companyname.essivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc649edd91001273103f.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ESSIVI" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAPBGs-kU0RR2Oi4RtTtDbI5RlTxYAwa7Q" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />

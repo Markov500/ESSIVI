@@ -1,6 +1,6 @@
 ﻿namespace ESSIVI.Model;
 
-internal class Client
+public class Client
 {
 	public int Id { get; set; }
 
@@ -8,6 +8,8 @@ internal class Client
 	public Location Localisation { get; set; }
 
 	public string Telephone { get; set; }
+
+	List<Commande> Commandes { get; set;}= new List<Commande>();
 
 
 }

@@ -2,19 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ESSIVI.View.ClientDetailPage"
-             Title="ClientDetailPage"
+             Title="Client"
              xmlns:vm ="clr-namespace:ESSIVI.ViewModel"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False"
              x:DataType="vm:ClientDetailVM"
-             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
-             xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials">
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps">
     <ContentPage.Content>
         <Grid
             BackgroundColor="{DynamicResource PrimaryColor}"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand"
+            RowSpacing="35"
             RowDefinitions="Auto,Auto">
 
-            <Grid Grid.Row="0" RowDefinitions="45,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,15,0,0">
+            <Grid Grid.Row="0" RowDefinitions="45,20" RowSpacing="20" HorizontalOptions="Center" Margin="0,35,0,0">
                 <Label
                         Grid.Row="0"
                         FontAttributes="Bold"
@@ -23,12 +25,13 @@
                         Text="ESSIVI SARL"
                         TextColor="White" />
                 <Label
-                        Grid.Row="1"
-                        Margin="0,-15,0,0"
-                        HorizontalOptions="CenterAndExpand"
-                        FontSize="18"
-                        Text="{Binding Cli.Nom}"
-                        TextColor="White" />
+                    Grid.Row="1"
+                    x:Name="Nom"
+                    Margin="0,-15,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="18"
+                    Text="{Binding Cli.Nom}"
+                    TextColor="White" />
 
             </Grid>
 
@@ -38,42 +41,53 @@
                 BorderColor="#1C375C"
                 CornerRadius="40"
                 HasShadow="True"
-                HeightRequest="580"
+                HeightRequest="590"
                 Padding="0">
 
-                <Grid RowDefinitions="Auto,Auto">
+                <Grid RowDefinitions="Auto,Auto,Auto">
                     <Border 
                         Grid.Row="0"
                         StrokeShape="RoundRectangle 40,40,0,0"
                         Margin="5,5,5,0"
                         Padding="0">
 
-                        <maps:Map                                                        HeightRequest="300"                            VerticalOptions="Start">
-                            <x:Arguments>
-                                <MapSpan>
-                                    <x:Arguments>
-                                        <sensors:Location>
-                                            <x:Arguments>
-                                                <x:Double>{Binding Cli.Localisation.Latitude}</x:Double>
-                                                <x:Double>{Binding Cli.Localisation.Longitude}</x:Double>
-                                            </x:Arguments>
-                                        </sensors:Location>
-                                        <x:Double>0.01</x:Double>
-                                        <x:Double>0.01</x:Double>
-                                    </x:Arguments>
-                                </MapSpan>
-                            </x:Arguments>                        </maps:Map>   
+                        <maps:Map
+                            x:Name="carte"
+                            IsShowingUser="True"
+                            HeightRequest="300"
+                            VerticalOptions="Start">
+                        </maps:Map>   
                     </Border>
 
-                    <Label
-                        Grid.Row="1"
-                        Text="{Binding Cli.Localisation.Longitude}"/>
+                    <Grid Grid.Row="1"
+                          ColumnDefinitions="Auto,Auto"
+                          Margin="30,0,0,40">
+                        <StackLayout
+                            Grid.Column="0">
+                            <Image Source="dotnet_bot.svg"
+                                   HeightRequest="100"/>
+                            <Label Text="Commandes"/>
+                            <Label Text="50"
+                                   HorizontalOptions="Center"
+                                   
+                                   />
+                        </StackLayout>
 
-
-
-
+                        
+                    </Grid>
+                    <Grid Grid.Row="2"
+                          RowDefinitions="Auto"
+                          WidthRequest="200">
+                        <Border StrokeShape="RoundRectangle 10,10,10,10">
+                            <Button Text="Retour"
+                                Command="{Binding GoBackCommand}"/>
+                        </Border>
+                        
+                    </Grid>
+                    
                 </Grid>
-                
+                
+
             </Frame>
         </Grid>
     </ContentPage.Content>

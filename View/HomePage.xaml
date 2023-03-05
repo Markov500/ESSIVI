@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ESSIVI.View.HomePage"
              Title="Agent"
-             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps">
+             x:DataType="vm:HomeVM"
+             xmlns:vm="clr-namespace:ESSIVI.ViewModel"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:loc="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials">
     <ContentPage.Content>
         <Grid
             BackgroundColor="{DynamicResource PrimaryColor}"
@@ -38,7 +41,7 @@
                 HeightRequest="580"
                 Padding="0">
 
-                <maps:Map x:Name="map"                           HeightRequest="540"                          VerticalOptions="Start"/>
+                <maps:Map x:Name="map"                           IsShowingUser="True"                          HeightRequest="540"                          VerticalOptions="Start"/>
             </Frame>
         </Grid>
     </ContentPage.Content>

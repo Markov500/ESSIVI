@@ -1,4 +1,6 @@
-﻿using Microsoft.Maui.LifecycleEvents;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Maui.LifecycleEvents;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace ESSIVI;
 
@@ -9,7 +11,8 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.ConfigureLifecycleEvents(events =>
+            .UseSkiaSharp()
+            .ConfigureLifecycleEvents(events =>
 			{
 #if ANDROID
 				events.AddAndroid(android => android.OnCreate((activity, bundle) => MakeStatusBarTranslucent(activity)));
@@ -26,6 +29,16 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+        builder.Services.AddSingleton<ClientService>();
+
+        builder.Services.AddSingleton<ClientPage>();
+        builder.Services.AddSingleton<ClientVM>();
+
+        builder.Services.AddSingleton<HomePage>();
+        builder.Services.AddSingleton<HomeVM>();
+
+        builder.Services.AddTransient<ClientDetailPage>();
+		builder.Services.AddTransient<ClientDetailVM>();
 		return builder.Build();
 	}
 }

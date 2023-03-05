@@ -4,11 +4,32 @@
         <name>ESSIVI</name>
     </assembly>
     <members>
-        <member name="P:ESSIVI.ViewModel.ClientDetailVM.Cli">
-            <inheritdoc cref="F:ESSIVI.ViewModel.ClientDetailVM.cli"/>
+        <member name="P:ESSIVI.ViewModel.ClientDetailVM.Pins">
+            <inheritdoc cref="F:ESSIVI.ViewModel.ClientDetailVM.pins"/>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientDetailVM.IsVisible">
+            <inheritdoc cref="F:ESSIVI.ViewModel.ClientDetailVM.isVisible"/>
+        </member>
+        <member name="F:ESSIVI.ViewModel.ClientDetailVM.showMapCommand">
+            <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientDetailVM.ShowMapCommand"/>.</summary>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientDetailVM.ShowMapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientDetailVM.ShowMap"/>.</summary>
+        </member>
+        <member name="F:ESSIVI.ViewModel.ClientDetailVM.goBackCommand">
+            <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientDetailVM.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientDetailVM.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientDetailVM.GoBack"/>.</summary>
         </member>
         <member name="P:ESSIVI.ViewModel.ClientVM.Clients">
             <inheritdoc cref="F:ESSIVI.ViewModel.ClientVM.clients"/>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientVM.IsRefreshing">
+            <inheritdoc cref="F:ESSIVI.ViewModel.ClientVM.isRefreshing"/>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientVM.Search">
+            <inheritdoc cref="F:ESSIVI.ViewModel.ClientVM.search"/>
         </member>
         <member name="F:ESSIVI.ViewModel.ClientVM.seeDetailsCommand">
             <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.SeeDetailsCommand"/>.</summary>
@@ -20,7 +41,22 @@
             <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.GotoAddPageCommand"/>.</summary>
         </member>
         <member name="P:ESSIVI.ViewModel.ClientVM.GotoAddPageCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.GotoAddPage"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.GotoAddPage"/>.</summary>
+        </member>
+        <member name="F:ESSIVI.ViewModel.ClientVM.getClientsCommand">
+            <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.GetClientsCommand"/>.</summary>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientVM.GetClientsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.GetClients"/>.</summary>
+        </member>
+        <member name="F:ESSIVI.ViewModel.ClientVM.searchClientCommand">
+            <summary>The backing field for <see cref="P:ESSIVI.ViewModel.ClientVM.SearchClientCommand"/>.</summary>
+        </member>
+        <member name="P:ESSIVI.ViewModel.ClientVM.SearchClientCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ESSIVI.ViewModel.ClientVM.SearchClient"/>.</summary>
+        </member>
+        <member name="P:ESSIVI.ViewModel.HomeVM.Commandes">
+            <inheritdoc cref="F:ESSIVI.ViewModel.HomeVM.commandes"/>
         </member>
         <member name="P:ESSIVI.ViewModel.LoginVM.NumId">
             <inheritdoc cref="F:ESSIVI.ViewModel.LoginVM.numId"/>
@@ -30,6 +66,9 @@
         </member>
         <member name="P:ESSIVI.ViewModel.LoginVM.Error">
             <inheritdoc cref="F:ESSIVI.ViewModel.LoginVM.error"/>
+        </member>
+        <member name="P:ESSIVI.ViewModel.LoginVM.AnimationIsVisible">
+            <inheritdoc cref="F:ESSIVI.ViewModel.LoginVM.animationIsVisible"/>
         </member>
         <member name="F:ESSIVI.ViewModel.LoginVM.connectCommand">
             <summary>The backing field for <see cref="P:ESSIVI.ViewModel.LoginVM.ConnectCommand"/>.</summary>

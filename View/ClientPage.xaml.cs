@@ -2,10 +2,11 @@ namespace ESSIVI.View;
 
 public partial class ClientPage : ContentPage
 {
-	public ClientPage()
+	public ClientPage(ClientVM vm)
 	{
 		InitializeComponent();
 
-		BindingContext = new ClientVM(Navigation);
+		BindingContext = vm;
+
 	}
 }

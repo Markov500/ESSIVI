@@ -730,6 +730,15 @@
     <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\Resources\Raw\water_droplet.json">
+      <PackagePath>water_droplet.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\Resources\Raw\water_drop_loading.json">
+      <PackagePath>water_drop_loading.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\Resources\Raw\water_splash.json">
+      <PackagePath>water_splash.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -889,6 +898,144 @@
     <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_icon.ico">
+      <PackagePath>car_water_delivrer_icon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLargeTile.scale-100.png">
+      <PackagePath>car_water_delivrer_iconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLargeTile.scale-125.png">
+      <PackagePath>car_water_delivrer_iconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLargeTile.scale-150.png">
+      <PackagePath>car_water_delivrer_iconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLargeTile.scale-200.png">
+      <PackagePath>car_water_delivrer_iconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLargeTile.scale-400.png">
+      <PackagePath>car_water_delivrer_iconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>car_water_delivrer_iconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.scale-100.png">
+      <PackagePath>car_water_delivrer_iconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.scale-125.png">
+      <PackagePath>car_water_delivrer_iconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.scale-150.png">
+      <PackagePath>car_water_delivrer_iconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.scale-200.png">
+      <PackagePath>car_water_delivrer_iconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.scale-400.png">
+      <PackagePath>car_water_delivrer_iconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.targetsize-16.png">
+      <PackagePath>car_water_delivrer_iconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.targetsize-24.png">
+      <PackagePath>car_water_delivrer_iconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.targetsize-256.png">
+      <PackagePath>car_water_delivrer_iconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.targetsize-32.png">
+      <PackagePath>car_water_delivrer_iconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconLogo.targetsize-48.png">
+      <PackagePath>car_water_delivrer_iconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconMediumTile.scale-100.png">
+      <PackagePath>car_water_delivrer_iconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconMediumTile.scale-125.png">
+      <PackagePath>car_water_delivrer_iconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconMediumTile.scale-150.png">
+      <PackagePath>car_water_delivrer_iconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconMediumTile.scale-200.png">
+      <PackagePath>car_water_delivrer_iconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconMediumTile.scale-400.png">
+      <PackagePath>car_water_delivrer_iconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconSmallTile.scale-100.png">
+      <PackagePath>car_water_delivrer_iconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconSmallTile.scale-125.png">
+      <PackagePath>car_water_delivrer_iconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconSmallTile.scale-150.png">
+      <PackagePath>car_water_delivrer_iconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconSmallTile.scale-200.png">
+      <PackagePath>car_water_delivrer_iconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconSmallTile.scale-400.png">
+      <PackagePath>car_water_delivrer_iconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconStoreLogo.scale-100.png">
+      <PackagePath>car_water_delivrer_iconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconStoreLogo.scale-125.png">
+      <PackagePath>car_water_delivrer_iconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconStoreLogo.scale-150.png">
+      <PackagePath>car_water_delivrer_iconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconStoreLogo.scale-200.png">
+      <PackagePath>car_water_delivrer_iconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconStoreLogo.scale-400.png">
+      <PackagePath>car_water_delivrer_iconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconWideTile.scale-100.png">
+      <PackagePath>car_water_delivrer_iconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconWideTile.scale-125.png">
+      <PackagePath>car_water_delivrer_iconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconWideTile.scale-150.png">
+      <PackagePath>car_water_delivrer_iconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconWideTile.scale-200.png">
+      <PackagePath>car_water_delivrer_iconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\car_water_delivrer_iconWideTile.scale-400.png">
+      <PackagePath>car_water_delivrer_iconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -903,6 +1050,282 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water.ico">
+      <PackagePath>water.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLargeTile.scale-100.png">
+      <PackagePath>waterLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLargeTile.scale-125.png">
+      <PackagePath>waterLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLargeTile.scale-150.png">
+      <PackagePath>waterLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLargeTile.scale-200.png">
+      <PackagePath>waterLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLargeTile.scale-400.png">
+      <PackagePath>waterLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>waterLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>waterLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>waterLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>waterLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>waterLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>waterLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>waterLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>waterLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>waterLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>waterLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.scale-100.png">
+      <PackagePath>waterLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.scale-125.png">
+      <PackagePath>waterLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.scale-150.png">
+      <PackagePath>waterLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.scale-200.png">
+      <PackagePath>waterLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.scale-400.png">
+      <PackagePath>waterLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.targetsize-16.png">
+      <PackagePath>waterLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.targetsize-24.png">
+      <PackagePath>waterLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.targetsize-256.png">
+      <PackagePath>waterLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.targetsize-32.png">
+      <PackagePath>waterLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterLogo.targetsize-48.png">
+      <PackagePath>waterLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterMediumTile.scale-100.png">
+      <PackagePath>waterMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterMediumTile.scale-125.png">
+      <PackagePath>waterMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterMediumTile.scale-150.png">
+      <PackagePath>waterMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterMediumTile.scale-200.png">
+      <PackagePath>waterMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterMediumTile.scale-400.png">
+      <PackagePath>waterMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterSmallTile.scale-100.png">
+      <PackagePath>waterSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterSmallTile.scale-125.png">
+      <PackagePath>waterSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterSmallTile.scale-150.png">
+      <PackagePath>waterSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterSmallTile.scale-200.png">
+      <PackagePath>waterSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterSmallTile.scale-400.png">
+      <PackagePath>waterSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterStoreLogo.scale-100.png">
+      <PackagePath>waterStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterStoreLogo.scale-125.png">
+      <PackagePath>waterStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterStoreLogo.scale-150.png">
+      <PackagePath>waterStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterStoreLogo.scale-200.png">
+      <PackagePath>waterStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterStoreLogo.scale-400.png">
+      <PackagePath>waterStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterWideTile.scale-100.png">
+      <PackagePath>waterWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterWideTile.scale-125.png">
+      <PackagePath>waterWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterWideTile.scale-150.png">
+      <PackagePath>waterWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterWideTile.scale-200.png">
+      <PackagePath>waterWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\waterWideTile.scale-400.png">
+      <PackagePath>waterWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottle.ico">
+      <PackagePath>water_bottle.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLargeTile.scale-100.png">
+      <PackagePath>water_bottleLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLargeTile.scale-125.png">
+      <PackagePath>water_bottleLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLargeTile.scale-150.png">
+      <PackagePath>water_bottleLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLargeTile.scale-200.png">
+      <PackagePath>water_bottleLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLargeTile.scale-400.png">
+      <PackagePath>water_bottleLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>water_bottleLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>water_bottleLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>water_bottleLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>water_bottleLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>water_bottleLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>water_bottleLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>water_bottleLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>water_bottleLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>water_bottleLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>water_bottleLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.scale-100.png">
+      <PackagePath>water_bottleLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.scale-125.png">
+      <PackagePath>water_bottleLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.scale-150.png">
+      <PackagePath>water_bottleLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.scale-200.png">
+      <PackagePath>water_bottleLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.scale-400.png">
+      <PackagePath>water_bottleLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.targetsize-16.png">
+      <PackagePath>water_bottleLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.targetsize-24.png">
+      <PackagePath>water_bottleLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.targetsize-256.png">
+      <PackagePath>water_bottleLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.targetsize-32.png">
+      <PackagePath>water_bottleLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleLogo.targetsize-48.png">
+      <PackagePath>water_bottleLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleMediumTile.scale-100.png">
+      <PackagePath>water_bottleMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleMediumTile.scale-125.png">
+      <PackagePath>water_bottleMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleMediumTile.scale-150.png">
+      <PackagePath>water_bottleMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleMediumTile.scale-200.png">
+      <PackagePath>water_bottleMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleMediumTile.scale-400.png">
+      <PackagePath>water_bottleMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleSmallTile.scale-100.png">
+      <PackagePath>water_bottleSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleSmallTile.scale-125.png">
+      <PackagePath>water_bottleSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleSmallTile.scale-150.png">
+      <PackagePath>water_bottleSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleSmallTile.scale-200.png">
+      <PackagePath>water_bottleSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleSmallTile.scale-400.png">
+      <PackagePath>water_bottleSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleStoreLogo.scale-100.png">
+      <PackagePath>water_bottleStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleStoreLogo.scale-125.png">
+      <PackagePath>water_bottleStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleStoreLogo.scale-150.png">
+      <PackagePath>water_bottleStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleStoreLogo.scale-200.png">
+      <PackagePath>water_bottleStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleStoreLogo.scale-400.png">
+      <PackagePath>water_bottleStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleWideTile.scale-100.png">
+      <PackagePath>water_bottleWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleWideTile.scale-125.png">
+      <PackagePath>water_bottleWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleWideTile.scale-150.png">
+      <PackagePath>water_bottleWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleWideTile.scale-200.png">
+      <PackagePath>water_bottleWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Mes_Codes\ESSIVI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\water_bottleWideTile.scale-400.png">
+      <PackagePath>water_bottleWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

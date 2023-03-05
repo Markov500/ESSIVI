@@ -5,34 +5,27 @@ using System.Text.Json;
 
 namespace ESSIVI.ViewModel;
 
-partial class ClientVM : ObservableObject
+public partial class ClientVM : ObservableObject
 {
 	[ObservableProperty]
 	ObservableCollection<Client> clients;
-	INavigation _navigation;
-	public ClientVM( INavigation navigation) 
-	{
-		this._navigation= navigation;
-		clients= new ObservableCollection<Client>();
-		Clients.Add(
-			new Client 
-			{
-				Id= 1,
-				Nom = "ETS Aladji",
-				Localisation = new(6.208264,1.188625)
-				
-				
-			}
-		);
 
-		Clients.Add(
-			new Client
-			{
-				Id = 2,
-				Nom = "ETS Tout est ici",
-                Localisation = new(11.2088864, -9.198625)
-            }
-		);
+	[ObservableProperty]
+	bool isRefreshing;
+
+	[ObservableProperty]
+	String search;
+
+	ClientService _clientService;
+	//INavigation _navigation;
+	public  ClientVM(ClientService clientService) 
+	{
+		//this._navigation = nav;
+		this._clientService = clientService;
+		this.Clients= new ObservableCollection<Client>();
+		this.IsRefreshing = true;
+		this.IsRefreshing = false;
+		//this.GetClients();
 	}
 
 	[RelayCommand]
@@ -40,20 +33,67 @@ partial class ClientVM : ObservableObject
 	{
 		
 		// Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}?Cli={JsonSerializer.Serialize(Cli)}");
-		await Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}?",
+
+		await Shell.Current.GoToAsync($"{nameof(ClientDetailPage)}",
 			new Dictionary<string, object>
 			{
-				["Cli"] = Cli,
+				["Client"] = Cli,
 			}
 			);
 	}
 
 
 	[RelayCommand]
-	void GotoAddPage()
+	async Task GotoAddPage()
 	{
-		_navigation.PushAsync(new ClientAddPage());
+		//await _navigation.PushAsync(new ClientAddPage());
+		await Shell.Current.GoToAsync(nameof(ClientAddPage));
 	}
 
+
+	[RelayCommand]
+    async Task GetClients()
+	{
+		
+
+		try
+		{
+			this.Clients.Clear();
+
+			var cli = _clientService.GetClients();
+
+
+            foreach (var client in cli)
+			{
+				Clients.Add(client);
+			}
+		}
+		catch(Exception ex)
+		{
+			await Shell.Current.DisplayAlert("Erreur", ex.Message, "OK");
+		}
+
+        this.IsRefreshing = false;
+    }
+
+
+	[RelayCommand]
+	void SearchClient()
+	{
+        
+
+		if(this.Search != string.Empty)
+		{
+            var cli = _clientService.GetClients().Where(c => c.Nom.ToLower().Contains(this.Search.ToLower()));
+			this.Clients.Clear();
+            foreach (Client client in cli)
+            {
+                this.Clients.Add(client);
+            }
+
+        }
+		
+		
+	}
 
 }
